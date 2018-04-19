@@ -1,11 +1,11 @@
 
 class LdsdMath < Formula
-  VERSION = "2018.04.19-2alpha"
+  VERSION = "2018.04.19-3alpha"
 
   desc "The Math Language"
   homepage "https://github.com/quenio"
   url "https://raw.githubusercontent.com/quenio/ldsd-releases/master/ldsd-math/ldsd-math-#{VERSION}.zip"
-  sha256 "ae97dbcb8634119ddbe21c274e24143bb1d49b20c3758d248e2147111e37b9bb"
+  sha256 "ca0690edf09309584953bbe69d584904f1d0b31e58a815503d09861d4d43e393"
 
   def install
     inreplace "bin/maths", "##PREFIX##", "#{prefix}/libexec"
