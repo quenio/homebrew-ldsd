@@ -1,5 +1,5 @@
 
-class LdsdMathAT2018 < Formula
+class LdsdMath4alpha < Formula
   VERSION = "2018.04.19-4alpha"
 
   desc "The Math Language"
